@@ -418,3 +418,91 @@
 // midnight, Jan. 1, 1970 and assigns it to a variable that
 // hasn't been declared beforehand. Use any variable you like
 // to represent the Date object.
+
+// var a = new Date()
+// var b= a.getTime()
+// var c = b / 60000
+// document.write("Elapsed miliseconds since january 1, 1970: "+ b + "<br>")
+// document.write("Elapsed minutes since januray 1, 1970: " + c)
+
+// task 7
+// Write a program that tests whether it's before noon and
+// alert “Its AM” else “its PM”.
+
+// var a = new Date()
+// var b = a.getHours()
+// if (b < 12) {
+//     alert("Its AM")
+// }
+// else alert ("its PM")
+
+// task 8
+// Write a program that creates a Date object for the last day
+// of the last month of 2020 and assigns it to variable named
+// laterDate.
+
+// var a = new Date("Decemer 31, 2020")
+// document.write("Later Date " + a)
+
+// task 13
+// Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+
+// var a = +prompt("Enter your age");
+// var b = 2020 - a;
+// document.write("Your age is " + a + "<br>");
+// document.write("Your birth year is " + b);
+
+// ===================== chp 35-38======================
+
+// task 1
+// Write a function that displays current date & time in your
+// browser.
+
+// function datetime(){
+//     var dt = new Date();
+//     document.write(dt);
+// }
+// datetime();
+
+// task 2
+// Write a function that takes first & last name and then it
+// greets the user using his full name.
+
+// function wellcome () {
+//     var fName = prompt("Enter your first name")
+//     var lName = prompt("Enter your last name")
+//     var full = fName + "  " + lName
+//     alert("Greetings sir " + full)
+// }
+// wellcome();
+
+
+// // task 3
+// // Write a function that adds two numbers (input by user)
+// // and returns the sum of two numbers.
+
+// function sum(){
+//     var fnum = +prompt("Enter your first number")
+//     var snum = +prompt("Enter your second number")
+//     var total = fnum + snum
+//     alert(total)
+
+// }
+// sum()
+
+// task 9
+// Write a function that calculates the area of a rectangle.
+// A = width * height
+// Pass width and height in following manner:
+// i. Arguments as value
+// ii. Arguments as variables
+
+// var height = prompt("Enter the height of rectangle")
+// var width = prompt("Enter the width of rectangle")
+
+// function area(height,  width) {
+//     return height * width;
+// }
+// document.write("The area of rectangle is " + area(height, width) + " units ")
+
